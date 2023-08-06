@@ -17,15 +17,15 @@ UniVerse is a social media platform developed by Smit Trivedi that allows users 
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/UniVerse.git
+        git clone https://github.com/your-username/UniVerse.git
 
 2. Install dependencies for both the client and server:
 
-cd UniVerse/client
-npm install
+        cd UniVerse/client
+        npm install
 
-cd ../server
-npm install
+        cd ../server
+        npm install
 
 
 3. Configure the environment variables:
@@ -36,22 +36,16 @@ npm install
 
 ## In the server directory
 
-npm start
+        npm start
 
-- Once connected to Database remove commented code in index.js file at line 62 and 63 and comment it again, so user can see the dummy data. 
+ ** Once connected to Database remove commented code in index.js file at line 62 and 63 and comment it again, so user can see the dummy data. ** 
 
 ## In the client directory
 
-npm start
+        npm start
 
 5. Open your web browser and access the application at http://localhost:3000.
 
 ## Contributing
 
 Contributions to UniVerse are welcome! If you find any bugs, have suggestions, or want to add new features, feel free to open an issue or submit a pull request.
-
-
-
-
-
-
