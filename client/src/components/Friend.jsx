@@ -122,7 +122,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
     // Check if the friendId is not the same as the current user's _id
     if (!isCurrentUser) {
       const response = await fetch(
-        `https://universe-nmi5.onrender.com/users/${_id}/${friendId}`,
+        `http://localhost:3001/users/${_id}/${friendId}`,
         {
           method: "PATCH",
           headers: {
@@ -143,7 +143,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
         <Box
           onClick={() => {
             navigate(`/profile/${friendId}`);
-            // navigate(0);
+            navigate(0);
           }}
         >
           <Typography
