@@ -72,33 +72,29 @@ The UniVerse website is built using the following technologies:
 ## Folder Structure
 The project's folder structure is organized as follows:
 
-Universe/
-|-- client/
-|   |-- node_modules/
-|   |-- public/
-|   |   |-- assets/
-|   |
-|   |-- src/
-|       |-- components/
-|       |-- scenes/
-|       |-- states/
-|   
-|   |-- package.json
-|
-|-- server/
-|   |-- controllers/
-|   |-- data/
-|   |-- middleware/
-|   |-- models/
-|   |-- node_modules/
-|   |-- public/
-|   |   |-- assets/
-|   |
-|   |-- routes/
-|
-|   |-- package.json
-|
-|-- README.md
+## Folder Structure
+
+- Universe/
+  - client/
+    - node_modules/
+    - public/
+      - assets/
+    - src/
+      - components/
+      - scenes/
+      - states/
+    - package.json
+  - server/
+    - controllers/
+    - data/
+    - middleware/
+    - models/
+    - node_modules/
+    - public/
+      - assets/
+    - routes/
+    - package.json
+  - README.md
 
 
 Libraries Used The following libraries are used in the backend and frontend respectively:
