@@ -21,7 +21,7 @@ The UniVerse website is built using the following technologies:
 ### Backend
 - Node.js with Express as the server framework
 - MongoDB for the database with Mongoose as the ODM
-- JWT authentication (JSON web tokens) with HTTP-Only cookie
+- JWT authentication (JSON web tokens) 
 - bcryptjs for password hashing
 - Multer for handling file uploads
 
