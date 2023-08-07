@@ -6,11 +6,13 @@ UniVerse is a social media platform developed by Smit Trivedi that allows users 
 
 ## Features
 
-- User registration and login system.
+- User registration and login system with Authentication and Authorization.
 - User profiles with the ability to upload photos and posts.
-- Like and comment functionality for posts.
-- Follow other users to see their posts on your feed.
-- View user profiles and post details.
+- Like and dislike functionality for posts.
+- User can view comments if any.
+- User can change theme as per their choice from Dark to Light and Light to Dark.
+- User can add and remove friend.
+- View other user profiles and post details.
 
 
 ## Installation
@@ -30,15 +32,18 @@ UniVerse is a social media platform developed by Smit Trivedi that allows users 
 
 3. Configure the environment variables:
 
-   - In the `server` directory, create a `.env` file and set up environment variables for the backend i.e (MONGO_URL, JWT_SECRET, PORT)
+   - In the `server` directory, create a `.env` file and set up environment variables for the backend i.e (
+     MONGO_URL = your mongo db URI 
+     JWT_SECRET = yourjwtsecret 
+     PORT = 3001)
 
-4. Run the application:
+1. Run the application:
 
 ## In the server directory
 
         npm start
 
- ** Once connected to Database remove commented code in index.js file at line 62 and 63 and comment it again, so user can see the dummy data. ** 
+ **Once connected to Database remove commented code in index.js file at line 62 and 63 and comment it again, so user can see the dummy data.** 
 
 ## In the client directory
 
